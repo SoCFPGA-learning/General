@@ -12,7 +12,9 @@ Primero debes instalar Git (por ejemplo si usas una distro Debian/Ubuntu):
 
 `sudo apt-get install git`
 
-### Rol de owner
+### Rol de miembro de SocFPGA-learning (owner)
+
+Ejecuta en la línea de comandos:
 
 ```sh
 #cambia CYC1000 por el repósitorio que toque
@@ -65,13 +67,13 @@ git push -f origin main
 
 ### Herramientas de edición y actualización
 
-* Para editar en Markdown los ficheros .md una muy buena herramienta es Typora https://typora.io/
+* Para editar en Markdown los ficheros .md una muy buena herramienta es Typora (https://typora.io/)
 
-* Script para actualizar de golpe todos los cambios [upd.sh](./upd.sh). 
+* Script para actualizar de golpe todos los cambios [upd.sh](./upd.sh)
 
-  * Colócalo en la raiz del repositorio. Ten en cuenta que es peligroso añadir todos los ficheros cambiados, ya que puede ser que no quieras actualizar cierto fichero en el que aún estás haciendo cambios.
+  * Colócalo en la raiz del repositorio. Ten en cuenta que es peligroso añadir todos los ficheros cambiados, ya que puede ser que no quieras actualizar cierto fichero en el que aún estás haciendo cambios
 
-* Fichero [.gitignore](./.gitignore) para que no sean visibles ciertos archivos en la versión web. 
+* Fichero [.gitignore](./.gitignore) para que no sean visibles ciertos archivos en la versión web
 
   * Colócalo en la raiz del repositorio con el siguiente contenido:
   
