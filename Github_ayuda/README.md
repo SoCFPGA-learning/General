@@ -63,9 +63,17 @@ git push -f origin master
 ### Herramientas de edición y actualización
 
 * Para editar en Markdown los ficheros .md puedes usar Typora https://typora.io/
-* Script para actualizar de golpe todos los cambios [upd.sh](./upd.sh). Colócalo en la raiz del repositorio.
-* Fichero [.gitignore](./.gitignore) para ignorar ciertos archivos en la versión pública. Colócalo en la raiz del repositorio.
 
+* Script para actualizar de golpe todos los cambios [upd.sh](./upd.sh). Colócalo en la raiz del repositorio.
+
+* Fichero [.gitignore](./.gitignore) para que no sean visibles ciertos archivos en la versión web. Colócalo en la raiz del repositorio con el siguiente contenido:
+
+  ```
+  upd.sh
+  clean.sh
+  .gitignore
+  ```
+  
   
 
 
