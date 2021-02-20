@@ -34,7 +34,7 @@ git push
 
 * Haz un fork del repositorio desde la web https://github.com/SoCFPGA-learning/CYC1000
 
-* Clona al ordenador local el fork que ahora está en tu propio usuario
+* Clona al ordenador local el fork que ahora está en tu propio GitHub (remoto)
 
   `git clone  https://github.com/TU-USUARIO/CYC1000`
 
@@ -65,19 +65,25 @@ git push -f origin main
 
 ### Herramientas de edición y actualización
 
-* Para editar en Markdown los ficheros .md puedes usar Typora https://typora.io/
+* Para editar en Markdown los ficheros .md una muy buena herramienta es Typora https://typora.io/
 
-* Script para actualizar de golpe todos los cambios [upd.sh](./upd.sh). Colócalo en la raiz del repositorio. Ten en cuenta que es peligroso añadir todos los ficheros cambiados, ya que puede ser que no quieras actualizar cierto fichero en el que aún estás haciendo cambios.
+* Script para actualizar de golpe todos los cambios [upd.sh](./upd.sh). 
 
-* Fichero [.gitignore](./.gitignore) para que no sean visibles ciertos archivos en la versión web. Colócalo en la raiz del repositorio con el siguiente contenido:
+  * Colócalo en la raiz del repositorio. Ten en cuenta que es peligroso añadir todos los ficheros cambiados, ya que puede ser que no quieras actualizar cierto fichero en el que aún estás haciendo cambios.
 
+* Fichero [.gitignore](./.gitignore) para que no sean visibles ciertos archivos en la versión web. 
+
+  * Colócalo en la raiz del repositorio con el siguiente contenido:
+  
   ```
   upd.sh
   clean.sh
   .gitignore
   ```
   
-  
+* [clean.sh](./clean.sh) Script para limpiar las carpetas del Quartus
+
+  * Colócalo en cada carpeta de proyecto Quartus y ejecútalo antes de subir los proyectos a GitHub.
 
 
 ### Comandos útiles
