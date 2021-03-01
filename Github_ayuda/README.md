@@ -13,7 +13,7 @@ Para conocer Git, consulta esta guía sobre el uso de Git desde la línea de com
 Primero debes instalar Git (por ejemplo desde una distro Debian/Ubuntu):
 
 ```
-`sudo apt-get install git`
+sudo apt-get install git
 ```
 
 ### Rol de miembro de SocFPGA-learning (owner)
