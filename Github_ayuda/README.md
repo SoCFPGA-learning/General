@@ -2,15 +2,19 @@
 
 Vamos a ver como puedes colaborar en los repositorios tanto si eres miembro de la organización SocFGPA-learning como si no. 
 
-En los siguientes ejemplos se usa el repositorio CYC1000. Recuerda cambiar los comandos por el repositorio adecuado.
+Aquí usaremos la herramienta Git desde la línea de comandos. Tambien puedes instalar [GitHub Desktop](https://desktop.github.com/).
+
+En los siguientes comandos se usa de ejemplo el repositorio CYC1000. Recuerda cambiar "CYC1000" por el repositorio adecuado.
 
 Para conocer Git, consulta esta guía sobre el uso de Git desde la línea de comandos:
 
 * https://rogerdudler.github.io/git-guide/index.es.html
 
-Primero debes instalar Git (por ejemplo si usas una distro Debian/Ubuntu):
+Primero debes instalar Git (por ejemplo desde una distro Debian/Ubuntu):
 
+```
 `sudo apt-get install git`
+```
 
 ### Rol de miembro de SocFPGA-learning (owner)
 
@@ -30,40 +34,11 @@ git commit -m "modificación README"
 git push
 ```
 
-
-
 ### Rol de usuario  
 
-* Haz un fork del repositorio desde la web https://github.com/SoCFPGA-learning/CYC1000
+Para una descripción mas detallada y trabajar con ramas "branch" mira este [documento](https://github.com/SoCFPGA-learning/General/tree/main/Contributing#pull-requests) en inglés.
 
-* Clona al ordenador local el fork que ahora está en tu propio GitHub (remoto)
-
-  `git clone  https://github.com/TU-USUARIO/CYC1000`
-
-* Actualizando cambios en tu fork:
-
-```sh
-git add README.md
-git commit -m "modificación README"
-git push
-```
-
-* Propón los cambios realizados en el repositorio original: desde tu web de usuario https://github.com/TU-USUARIO/CYC1000 crea un Pull Request.  
-* El administrador del repositorio original revisará/comentará/aceptará los cambios propuestos.
-
-En caso que tu fork se haya quedado des-actualizado (en la web puedes ver si tu fork está por detrás en número de commits), para actualizar tu fork con el repositorio original sigue estos pasos ([+info](https://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository)):
-
-```sh
-#cambia CYC1000 por el repósitorio que toque
-git remote add upstream https://github.com/SoCFPGA-learning/CYC1000
-git fetch upstream
-git checkout main
-git rebase upstream/main
-git push -f origin main
-#main en los nuevos repos, master en los antiguos
-```
-
-
+La versión obsoleta en castellano esta [aquí](rol_usuario.md).
 
 ### Herramientas de edición y actualización
 

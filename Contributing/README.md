@@ -83,3 +83,5 @@ git push origin <topic-branch-name>
 1. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/) with a clear title and description.
 
 **IMPORTANT**: By submitting a patch, you agree to allow the project owner to license your work under the same license as that used by the project.
+
+(*) CREDITS: This page is a copy from a project of https://github.com/boogermann
