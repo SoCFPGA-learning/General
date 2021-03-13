@@ -6,8 +6,10 @@ Este repo contiene cosas en común con el resto de repositorios.
 
 Contents / Contenido:
 
+* [Projects](./Projects)
 * [GitHub_ayuda](./Github_ayuda): Ayuda y notas para la colaboración en Github
-
-* [clean.sh](./clean.sh) Script para limpiar las carpetas del Quartus
+* [Contributing](./Contributing): Contributing to the repositories
+* [clean.sh](./clean.sh) Quartus folder cleaning script / Script para limpiar las carpetas del Quartus
   * Colócalo en cada carpeta de proyecto Quartus y ejecútalo antes de subir los proyectos a GitHub.
+  * Run it at the project root folder before uploading Quartus project into the repositories
 
