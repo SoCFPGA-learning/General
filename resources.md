@@ -12,6 +12,8 @@ WORK IN PROGRESS DOCUMENT:  TO BE UPDATED SOMEDAY
 
 * Nandland board tutorials https://www.nandland.com/
 
+* DE0-Nano Tutorials and Projects  https://sites.google.com/site/semilleroadt/fpgas  
+
 * Mist board tutorials https://github.com/mist-devel/mist-board/tree/master/tutorials/soc 
 
 * Módulos hardware para poder usar nuestras placas como si fueran entrenadoras http://www.forofpga.es/viewtopic.php?t=60   
